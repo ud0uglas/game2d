@@ -1,22 +1,21 @@
-#include <SDL2/SDL.h>
+#include "game.hpp"
+
+Game *game = nullptr;
 
 int main(int argc, char const *argv[])
 {
-    SDL_Window* window = NULL;
+    game = new Game();
 
-    if ( SDL_Init(SDL_INIT_VIDEO) == 0 )
-        window = SDL_CreateWindow("game2d", 50, 50, 640, 480, 0);
-    else
-        SDL_Log("Erro na inicialização: %s", SDL_GetError());
+    game->init("game2d v0.0.1", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 1024, 768, false);
 
-    if ( window != NULL )
-        while( !SDL_QuitRequested() ) {
+    while (game->running())
+    {
+        game->handleEvents();
+        game->update();
+        game->render();
+    }
 
-        }
-    else
-        SDL_Log("Erro na criação da janela: %s", SDL_GetError());
+    game->clean();
 
-    SDL_DestroyWindow(window);
-    SDL_Quit();
     return 0;
 }
