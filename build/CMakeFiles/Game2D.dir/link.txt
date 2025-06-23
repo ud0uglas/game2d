@@ -1,1 +1,0 @@
-/usr/bin/c++ -pthread CMakeFiles/Game2D.dir/src/main.cpp.o -o Game2D  vendor/SDL3/libSDL3.a -ldl -lpthread -lm -lX11 
