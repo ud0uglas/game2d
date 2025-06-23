@@ -1,2 +1,29 @@
-build
-vscode
+# Build folders
+/build/
+/build-*/  
+/bin/
+/out/
+/dist/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Visual Studio/Windows
+*.sln
+*.vcxproj*
+*.user
+*.opensdf
+*.pdb
+*.obj
+*.exe
+*.dll
+*.lib
+*.log
+
+# Unix/Linux/macOS
+*.o
+*.*
