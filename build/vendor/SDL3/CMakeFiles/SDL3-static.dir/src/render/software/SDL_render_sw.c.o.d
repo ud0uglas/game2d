@@ -1,0 +1,19 @@
+vendor/SDL3/CMakeFiles/SDL3-static.dir/src/render/software/SDL_render_sw.c.o: \
+ /home/doug/game2d/vendor/SDL3/src/render/software/SDL_render_sw.c \
+ /usr/include/stdc-predef.h \
+ /home/doug/game2d/vendor/SDL3/src/SDL_internal.h \
+ /home/doug/game2d/vendor/SDL3/src/render/software/../SDL_sysrender.h \
+ /home/doug/game2d/vendor/SDL3/src/render/software/../../video/SDL_surface_c.h \
+ /home/doug/game2d/vendor/SDL3/src/render/software/../../video/SDL_blit.h \
+ /home/doug/game2d/vendor/SDL3/src/render/software/../SDL_yuv_sw_c.h \
+ /home/doug/game2d/vendor/SDL3/src/render/software/SDL_render_sw_c.h \
+ /home/doug/game2d/vendor/SDL3/src/render/software/SDL_draw.h \
+ /home/doug/game2d/vendor/SDL3/src/render/software/../../video/SDL_surface_c.h \
+ /home/doug/game2d/vendor/SDL3/src/render/software/SDL_blendfillrect.h \
+ /home/doug/game2d/vendor/SDL3/src/render/software/SDL_blendline.h \
+ /home/doug/game2d/vendor/SDL3/src/render/software/SDL_blendpoint.h \
+ /home/doug/game2d/vendor/SDL3/src/render/software/SDL_drawline.h \
+ /home/doug/game2d/vendor/SDL3/src/render/software/SDL_drawpoint.h \
+ /home/doug/game2d/vendor/SDL3/src/render/software/SDL_rotate.h \
+ /home/doug/game2d/vendor/SDL3/src/render/software/SDL_triangle.h \
+ /home/doug/game2d/vendor/SDL3/src/render/software/../../video/SDL_pixels_c.h

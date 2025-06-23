@@ -1,0 +1,8 @@
+/home/doug/game2d/build/CMakeFiles/Game2D.dir
+/home/doug/game2d/build/CMakeFiles/edit_cache.dir
+/home/doug/game2d/build/CMakeFiles/rebuild_cache.dir
+/home/doug/game2d/build/vendor/SDL3/CMakeFiles/SDL3-static.dir
+/home/doug/game2d/build/vendor/SDL3/CMakeFiles/SDL3_test.dir
+/home/doug/game2d/build/vendor/SDL3/CMakeFiles/SDL_uclibc.dir
+/home/doug/game2d/build/vendor/SDL3/CMakeFiles/edit_cache.dir
+/home/doug/game2d/build/vendor/SDL3/CMakeFiles/rebuild_cache.dir

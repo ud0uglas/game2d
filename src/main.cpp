@@ -1,21 +1,15 @@
-#include "game.hpp"
+#include <SDL3/SDL.h>
+#include <iostream>
 
-Game *game = nullptr;
-
-int main(int argc, char const *argv[])
-{
-    game = new Game();
-
-    game->init("game2d v0.0.1", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 1024, 768, false);
-
-    while (game->running())
-    {
-        game->handleEvents();
-        game->update();
-        game->render();
+int main() {
+    if (SDL_Init(SDL_INIT_VIDEO) < 0) {
+        std::cerr << "SDL_Init failed: " << SDL_GetError() << "\n";
+        return 1;
     }
 
-    game->clean();
-
+    SDL_Window* window = SDL_CreateWindow("Game", 640, 480, 0);
+    SDL_Delay(2000);
+    SDL_DestroyWindow(window);
+    SDL_Quit();
     return 0;
 }
